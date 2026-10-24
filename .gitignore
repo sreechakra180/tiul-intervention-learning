@@ -1,0 +1,81 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Checkpoints and serialized weights
+*.pt
+*.pth
+*.bin
+*.onnx
+**/checkpoints/
+checkpoints/
+
+# Raw data and compressed archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.npz
+data/raw/
+**/data/raw/
+**/raw/
+*.txt.gz
+
+# Evaluation result logs & history JSONs (research logs)
+**/results/*.json
+**/results/
+results/
+**/checkpoints/*.json
+
+# Research papers, drafts, audits, reviews, and templates (NOT THE RESEARCH)
+*.docx
+*.pdf
+~$*
+audit/
+**/audit/
+literature/
+**/literature/
+formulation/
+**/formulation/
+paper/
+**/paper/
+chatgpt and claude results audit/
+**/chatgpt and claude results audit/
+00_*.md
+01_*.md
+02_*.md
+03_*.md
+04_*.md
+05_*.md
+06_*.md
+**/00_*.md
+**/01_*.md
+**/02_*.md
+**/03_*.md
+**/04_*.md
+**/05_*.md
+**/06_*.md
+TIUL/README.md
+research/SHELL/README.md
+IRIS_*.md
+**/IRIS_*.md
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
